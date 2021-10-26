@@ -24,11 +24,6 @@
     align-items: center;
 }
 
-.digits::after {
-    content: "";
-    border: 2px solid #FF2E6A;
-}
-
 .button--primary {
     background-color: #3751ff;
     color: #FFFFFF;
@@ -70,3 +65,55 @@
 
 }
 
+.section_body {
+    background: linear-gradient(180deg, rgba(242, 249, 255, 0.12) 0%, #F2F9FF 100%);
+}
+
+.title_body {
+    font-family: Halyard Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 105%;
+    text-align: center;
+    color: #1E266D;
+    padding-top: 130px;
+}
+
+.mini_title_body {
+    font-family: Halyard Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;    
+    text-align: center;
+    color: #455880;
+    padding-top: 27px;
+}
+
+.b_buy {
+    font-family: Halyard Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 100%;
+    width: 148px;
+    height: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.b_features {
+    font-family: Halyard Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 50px;
+    color: #455880;
+    border-radius: 100px;
+    width: 200px;
+    height: 50px;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+}
