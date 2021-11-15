@@ -147,7 +147,6 @@ html {
     margin-top: -450px;
     margin-left: 342px;
 }
-
 .grey_text{
     font-family:"Halyard Text Regular" sans-serif !important;
     font-size:16px;font-style:normal;
@@ -169,7 +168,7 @@ html {
     padding-right: 72px;
     margin-bottom: 162px;
 }
-.people_img{
+.people_image{
     position: absolute;
     margin-top: 500px;
     padding-bottom: 160px;
@@ -224,11 +223,25 @@ html {
 .design_img{
     cursor: pointer;
 }
+
+.reviews {
+    max-width: 1180px;
+    width:100%;
+    margin-bottom: 150px;
+}
+
 .reviews_title{
     padding-top: 250px;
     padding-bottom: 56px;
 }
-
+.reviews_block{
+    border: 1px solid rgba(69, 88, 128, 0.2);
+    border-radius: 4px;
+    max-width: 373px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .people_text_review{
     font-family:"Halyard Text Regular" sans-serif !important;
     font-size:18px;font-style:normal;
@@ -238,6 +251,7 @@ html {
     color: #455880;
     line-height: 180%;
     width: 300px;
+    min-height: 211px;    
 }
 .reviews_img{
     margin-left: 105px;
@@ -255,55 +269,149 @@ html {
     line-height: 125%;
     padding-top: 23px;
     text-align: center;
+    margin-left: 5px;
 }
 .ssilka{
     margin-top: 0;
-    text-align: center;
-}
-.aa{
-    max-width: 373px;
-    padding: 0;
+    margin-left: 95px;
 }
 .people_text_block{
-    border-bottom: 1px solid rgba(69, 88, 128, 0.2);
     padding-left: 0px;
+    max-width: 340px
 }
-
 .reviews_block {
-    display: flex;
     height: 467px;
-    justify-content: space-between;
-    align-items: center;  
-    margin-left: 210px;
+    padding: 38px 44px 450px 43px;
+    margin-right: 30px;
 }
-
 .happy-user {
-    margin-left: 28px;
+    display: flex;
+    flex-direction: column;
+    max-width: 270px;
     margin-top: 39px;
-    border: 1px solid rgba(69, 88, 128, 0.2);
-    border-radius: 4px;
-    padding: 38px 44px 32px 43px;
 }
-
-.website {
-    margin-top: 150px;
+.others {
+    display: flex;
+    max-width: 1180px;
+}
+.intouch {
     background: #3751FF;
-    padding-top: 88px;
-    width: 1600px;
-    height: 323px;
+    padding: 88px 211px 88px 205px;
     margin-bottom: 47px;
 }
-
-.launch-text {
-    color: white;
+.intouch_title {
     font-family:"Halyard Text Regular" sans-serif !important;
     font-style: normal;
-    font-weight: 500px;
+    font-weight: 600;
     font-size: 48px;
-    line-height: 60px;
-    width: 1153px;
-    height: 120px;
-    padding-top: 88px;
-    padding-left: 205px;
-    
+    color: #FFFFFF;
+}
+.launch_text {
+    display: flex;
+    justify-content: space-between;
+}
+.intouch_button {
+    font-family:"Halyard Text Regular" sans-serif !important;
+    font-size:18px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: #1E266D;
+    line-height: 110%;
+    margin-left: 5px;
+    padding: 17px 31px 13px 60px;
+    background: #FFFFFF url(../img/messag.png) no-repeat top 17px left 23px;
+}
+.launch_submit {
+    align-items:center;
+    padding-top: 13px;
+}
+.launch_submit.button--primary1 {
+    color: #455880;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 110%;
+    text-align: center;
+}
+.intouch_text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 125%;
+    color: #DFE0EB;
+    padding-top: 19px;
+}
+.studio {
+    color:yellow;
+    text-decoration: none;
+}
+.section_footer{
+    max-width: 1180px;
+    width: 100%;
+    margin: auto;
+    margin-top: 128px;
+}
+.footer_top{
+    display: flex;
+    border-bottom: 1px solid rgba(135, 146, 161, 0.08);
+    padding-bottom: 77px;
+}
+.footer_title{
+    font-family:"Halyard Text Regular" sans-serif !important;
+    font-size:22px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: #1E266D;
+    margin-bottom: 22px;
+}
+.footer_column2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 184px;
+}
+.footer_menu{
+    font-family:"Halyard Text Regular" sans-serif !important;
+    font-size:18px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    text-decoration: none;
+    color:#455880;
+    padding-bottom: 15px;
+}
+.socials_footer{
+    cursor: pointer;
+    margin-bottom: 24px;
+}
+.footer_bottom{
+    margin-top: 53px;
+    margin-bottom: 107px;
+}
+.copyright{
+    font-family:"Halyard Text Regular" sans-serif !important;
+    font-size:14px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    color: rgba(69, 88, 128, 0.5);
+}
+.socials_img {
+    margin-right: 25px;
+}
+.footer_bottom{
+    display: flex;
+    justify-content: space-between;
+}
+.f_s{
+    font-family:"Halyard Text Regular" sans-serif !important;
+    font-size:14px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: right;
+    color: #455880;
+    text-decoration: none;
+    padding-right: 22px;
 }
