@@ -553,7 +553,7 @@ html {
     }
     .footer_top {
         max-width: 1024px;
-        padding-left: -10px;
+        padding-right: 10px;
     }
 }
 
