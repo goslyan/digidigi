@@ -449,7 +449,7 @@ html {
 .menu_button:hover, .footer_menu:hover {
     color: palevioletred;
     filter: drop-shadow(5px 5px 3px pink);
-    font-size: 19px;
+    font-size: large;
     transition-duration: 0.5s;
 }
 
